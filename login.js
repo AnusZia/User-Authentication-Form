@@ -9,7 +9,7 @@ function loginform(){
         if(storedPassword=== password){
             alert("login successfully");
             localStorage.setItem("loggedInUser", username);
-            window.location.href= 'home.html'
+            window.location.href= 'index.html'
         }
         else {
             alert("invalid password")
